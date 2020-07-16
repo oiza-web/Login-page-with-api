@@ -1,0 +1,88 @@
+.left {
+  width: inherit;
+  float: left;
+  color: rgb(160, 158, 158, .8);
+  padding: 100px 0 0 100px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.right {
+  width: auto;
+  float: right;
+  padding: 100px 100px 0 0;
+}
+
+#bold { 
+  color: rgb(37, 37, 238, .6);
+  font-family: 'Merriweather', serif;
+  font-stretch: wider;  
+}
+
+.header {
+  color: black;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+
+.login {
+  margin-top: 100px;
+}
+
+.text-input{
+  border: none;
+  width: 300px;
+  background: transparent;
+  outline: none;
+  color:  rgb(37, 37, 238, .6);
+}
+
+.input-box{
+  padding-left: 30px;
+  border: solid 1.5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: linear-gradient(90deg,  rgb(37, 37, 238, .6) 5%, rgba(247,247,247,0) 5%, rgba(239,244,245,1) 100%);
+  
+
+}
+
+.label-class {
+  font-weight: bold;
+  font-size: small;
+}
+
+span{
+  margin-left: 100px;
+}
+
+span a {
+  text-decoration: none;
+}
+
+#login-button {
+  background-color: rgb(37, 37, 238, .6 );
+  color: white;
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-style: hidden;
+  box-shadow:0px 5px 0px 5px rgb(37, 37, 238, .6 ) offset;
+}
+
+#signup-button {
+  background-color: white;
+  color:  rgb(37, 37, 238, .6);
+  height: 40px;
+  width: 100px;
+  margin-top:20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  border-color:  rgb(37, 37, 238, .6);
+}
+
+#grey {
+  color: rgb(160, 158, 158, .8);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project1</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./scripts/ajax.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="header">
+        <h1 id="bold">
+          Training Websites
+        </h1>
+        <h1>
+          for Developers
+        </h1>
+        <h1>
+          & Entrepreneurs
+        </h1>
+      </div>
+      <div class="form">
+        <form class="login" action="https://reqres.in/api/login" method="POST" id="postForm">
+          <label class="label-class" for="">Welcome back, please login to your account</label> <br> <br>
+          <div class="login-error"></div>
+          <div class="input-box">
+            <label class="label-class" for="Email"> Email Address </label><br>
+            <input id="email-input" class="text-input" type="email" ><br>
+          </div>
+
+          <div class="input-box">
+            <label class="label-class" for="Password">Password </label><br>
+            <input id="password-input" class="text-input" type="password" > <br>
+          </div>
+
+          <input id="remember-me" type="checkbox" name="remember-me" value="remember-me">
+          <label class="label-class"> Remember Me </label><span class="label-class"> <a href="#" id="grey">Forgot
+              Password?</a> </span><br>
+          <input id="login-button" type="submit" value="login">
+          <input id="signup-button" type="submit" value="Sign up">
+        </form>
+      </div>
+    </div>
+    <div class="right">
+      <img src="./images/developer2.png" style="float:right;width:auto;height:auto;">
+    </div>
+  </div>
+</body>
+
+</html>

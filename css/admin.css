@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  margin: 50px;
+  padding: 50px;
+  background-color: #5b31af;
+}
+
+#button{
+  float: right;
+  background-color: #ffc105;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+}
+
+div.user-row{
+  border-style: ridge;
+  margin-top: -40px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  border-width: thin;
+}
+ 
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: x-small;
+  letter-spacing: 1.5px;
+  color: white;
+  font-weight: 100px;
+}
+
+
+.user-row {
+  display: flex;
+  margin: 50px 0;
+  
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 50px;
+}
+
+.isActive{
+  background-color: #28a744;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  border-style: ridge;
+  width: 100px;
+  border-style: none;
+}
+
+.user-name{
+ margin-top: 10px;
+ margin-right: 50px;
+ width: 150px;
+}
+
+.user-email{
+  margin-top: 10px;
+  margin-right: 50px;
+  width: 150px;
+} 
+
+.job-role{
+  margin-top: 10px;
+  margin-right: 50px;
+  width: 150px;
+}
+
+#icon{
+ font-size: 30px;
+ margin-left: 200px;
+ margin-top: 10px;
+ color: grey;
+}
+
+#sort-down{
+  margin-top: 30px;
+  color: grey;
+  font-size: x-small;
+}
